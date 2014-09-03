@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE66DC4C19B6C39C00E28D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC4B19B6C39C00E28D9F /* Foundation.framework */; };
+		AE66DC4E19B6C39C00E28D9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC4D19B6C39C00E28D9F /* CoreGraphics.framework */; };
+		AE66DC5019B6C39C00E28D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC4F19B6C39C00E28D9F /* UIKit.framework */; };
+		AE66DC5619B6C39C00E28D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE66DC5419B6C39C00E28D9F /* InfoPlist.strings */; };
+		AE66DC5819B6C39C00E28D9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66DC5719B6C39C00E28D9F /* main.m */; };
+		AE66DC5C19B6C39C00E28D9F /* IuiueAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66DC5B19B6C39C00E28D9F /* IuiueAppDelegate.m */; };
+		AE66DC5E19B6C39C00E28D9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE66DC5D19B6C39C00E28D9F /* Images.xcassets */; };
+		AE66DC6519B6C39C00E28D9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC6419B6C39C00E28D9F /* XCTest.framework */; };
+		AE66DC6619B6C39C00E28D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC4B19B6C39C00E28D9F /* Foundation.framework */; };
+		AE66DC6719B6C39C00E28D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66DC4F19B6C39C00E28D9F /* UIKit.framework */; };
+		AE66DC6F19B6C39C00E28D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE66DC6D19B6C39C00E28D9F /* InfoPlist.strings */; };
+		AE66DC7119B6C39C00E28D9F /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE66DC7019B6C39C00E28D9F /* ___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE66DC6819B6C39C00E28D9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE66DC4019B6C39B00E28D9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE66DC4719B6C39C00E28D9F;
+			remoteInfo = "日租帮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE66DC4819B6C39C00E28D9F /* 日租帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日租帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66DC4B19B6C39C00E28D9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE66DC4D19B6C39C00E28D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE66DC4F19B6C39C00E28D9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE66DC5319B6C39C00E28D9F /* 日租帮-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "日租帮-Info.plist"; sourceTree = "<group>"; };
+		AE66DC5519B6C39C00E28D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE66DC5719B6C39C00E28D9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE66DC5919B6C39C00E28D9F /* 日租帮-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "日租帮-Prefix.pch"; sourceTree = "<group>"; };
+		AE66DC5A19B6C39C00E28D9F /* IuiueAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuiueAppDelegate.h; sourceTree = "<group>"; };
+		AE66DC5B19B6C39C00E28D9F /* IuiueAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IuiueAppDelegate.m; sourceTree = "<group>"; };
+		AE66DC5D19B6C39C00E28D9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE66DC6319B6C39C00E28D9F /* 日租帮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日租帮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE66DC6419B6C39C00E28D9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE66DC6C19B6C39C00E28D9F /* 日租帮Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "日租帮Tests-Info.plist"; sourceTree = "<group>"; };
+		AE66DC6E19B6C39C00E28D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE66DC7019B6C39C00E28D9F /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE66DC4519B6C39C00E28D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC4E19B6C39C00E28D9F /* CoreGraphics.framework in Frameworks */,
+				AE66DC5019B6C39C00E28D9F /* UIKit.framework in Frameworks */,
+				AE66DC4C19B6C39C00E28D9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66DC6019B6C39C00E28D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC6519B6C39C00E28D9F /* XCTest.framework in Frameworks */,
+				AE66DC6719B6C39C00E28D9F /* UIKit.framework in Frameworks */,
+				AE66DC6619B6C39C00E28D9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE66DC3F19B6C39B00E28D9F = {
+			isa = PBXGroup;
+			children = (
+				AE66DC5119B6C39C00E28D9F /* 日租帮 */,
+				AE66DC6A19B6C39C00E28D9F /* 日租帮Tests */,
+				AE66DC4A19B6C39C00E28D9F /* Frameworks */,
+				AE66DC4919B6C39C00E28D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE66DC4919B6C39C00E28D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC4819B6C39C00E28D9F /* 日租帮.app */,
+				AE66DC6319B6C39C00E28D9F /* 日租帮Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE66DC4A19B6C39C00E28D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC4B19B6C39C00E28D9F /* Foundation.framework */,
+				AE66DC4D19B6C39C00E28D9F /* CoreGraphics.framework */,
+				AE66DC4F19B6C39C00E28D9F /* UIKit.framework */,
+				AE66DC6419B6C39C00E28D9F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE66DC5119B6C39C00E28D9F /* 日租帮 */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC5A19B6C39C00E28D9F /* IuiueAppDelegate.h */,
+				AE66DC5B19B6C39C00E28D9F /* IuiueAppDelegate.m */,
+				AE66DC5D19B6C39C00E28D9F /* Images.xcassets */,
+				AE66DC5219B6C39C00E28D9F /* Supporting Files */,
+			);
+			path = "日租帮";
+			sourceTree = "<group>";
+		};
+		AE66DC5219B6C39C00E28D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC5319B6C39C00E28D9F /* 日租帮-Info.plist */,
+				AE66DC5419B6C39C00E28D9F /* InfoPlist.strings */,
+				AE66DC5719B6C39C00E28D9F /* main.m */,
+				AE66DC5919B6C39C00E28D9F /* 日租帮-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE66DC6A19B6C39C00E28D9F /* 日租帮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC7019B6C39C00E28D9F /* ___Tests.m */,
+				AE66DC6B19B6C39C00E28D9F /* Supporting Files */,
+			);
+			path = "日租帮Tests";
+			sourceTree = "<group>";
+		};
+		AE66DC6B19B6C39C00E28D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE66DC6C19B6C39C00E28D9F /* 日租帮Tests-Info.plist */,
+				AE66DC6D19B6C39C00E28D9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE66DC4719B6C39C00E28D9F /* 日租帮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66DC7419B6C39C00E28D9F /* Build configuration list for PBXNativeTarget "日租帮" */;
+			buildPhases = (
+				AE66DC4419B6C39C00E28D9F /* Sources */,
+				AE66DC4519B6C39C00E28D9F /* Frameworks */,
+				AE66DC4619B6C39C00E28D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "日租帮";
+			productName = "日租帮";
+			productReference = AE66DC4819B6C39C00E28D9F /* 日租帮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE66DC6219B6C39C00E28D9F /* 日租帮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE66DC7719B6C39C00E28D9F /* Build configuration list for PBXNativeTarget "日租帮Tests" */;
+			buildPhases = (
+				AE66DC5F19B6C39C00E28D9F /* Sources */,
+				AE66DC6019B6C39C00E28D9F /* Frameworks */,
+				AE66DC6119B6C39C00E28D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE66DC6919B6C39C00E28D9F /* PBXTargetDependency */,
+			);
+			name = "日租帮Tests";
+			productName = "日租帮Tests";
+			productReference = AE66DC6319B6C39C00E28D9F /* 日租帮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE66DC4019B6C39B00E28D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Iuiue;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.iuiue;
+				TargetAttributes = {
+					AE66DC6219B6C39C00E28D9F = {
+						TestTargetID = AE66DC4719B6C39C00E28D9F;
+					};
+				};
+			};
+			buildConfigurationList = AE66DC4319B6C39B00E28D9F /* Build configuration list for PBXProject "日租帮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE66DC3F19B6C39B00E28D9F;
+			productRefGroup = AE66DC4919B6C39C00E28D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE66DC4719B6C39C00E28D9F /* 日租帮 */,
+				AE66DC6219B6C39C00E28D9F /* 日租帮Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE66DC4619B6C39C00E28D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC5619B6C39C00E28D9F /* InfoPlist.strings in Resources */,
+				AE66DC5E19B6C39C00E28D9F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66DC6119B6C39C00E28D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC6F19B6C39C00E28D9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE66DC4419B6C39C00E28D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC5C19B6C39C00E28D9F /* IuiueAppDelegate.m in Sources */,
+				AE66DC5819B6C39C00E28D9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE66DC5F19B6C39C00E28D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE66DC7119B6C39C00E28D9F /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE66DC6919B6C39C00E28D9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE66DC4719B6C39C00E28D9F /* 日租帮 */;
+			targetProxy = AE66DC6819B6C39C00E28D9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE66DC5419B6C39C00E28D9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE66DC5519B6C39C00E28D9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE66DC6D19B6C39C00E28D9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE66DC6E19B6C39C00E28D9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE66DC7219B6C39C00E28D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE66DC7319B6C39C00E28D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE66DC7519B6C39C00E28D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "日租帮/日租帮-Prefix.pch";
+				INFOPLIST_FILE = "日租帮/日租帮-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE66DC7619B6C39C00E28D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "日租帮/日租帮-Prefix.pch";
+				INFOPLIST_FILE = "日租帮/日租帮-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE66DC7819B6C39C00E28D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/日租帮.app/日租帮";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "日租帮/日租帮-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "日租帮Tests/日租帮Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE66DC7919B6C39C00E28D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/日租帮.app/日租帮";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "日租帮/日租帮-Prefix.pch";
+				INFOPLIST_FILE = "日租帮Tests/日租帮Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE66DC4319B6C39B00E28D9F /* Build configuration list for PBXProject "日租帮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66DC7219B6C39C00E28D9F /* Debug */,
+				AE66DC7319B6C39C00E28D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE66DC7419B6C39C00E28D9F /* Build configuration list for PBXNativeTarget "日租帮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66DC7519B6C39C00E28D9F /* Debug */,
+				AE66DC7619B6C39C00E28D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE66DC7719B6C39C00E28D9F /* Build configuration list for PBXNativeTarget "日租帮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE66DC7819B6C39C00E28D9F /* Debug */,
+				AE66DC7919B6C39C00E28D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE66DC4019B6C39B00E28D9F /* Project object */;
+}
