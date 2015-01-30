@@ -13,4 +13,36 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #import "Constants.h"//接口与一些固定调用的数据
+    #import "Toast+UIView.h"//设置frame与透明指示
+    #import "iuiueCHKeychain.h"//保存与获取钥匙串中的数据
+    #import "MBProgressHUD.h"//透明指示层
+    #import "ASIFormDataRequest.h"//asi网络编程
+    #import "CustomIOS7AlertView.h"
+    #import "RDVTabBarController.h"
+
+
+#import "RemindViewController.h"///提醒类
+#import "The_memoViewController.h"//备忘录的类
+#import "AddmemoViewController.h"//添加备忘录
+#import "LlineViewController.h" //折线图  折线图和圆形图
+#import "HPieChartView.h" //圆形图   圆形图
+#import "MJRefresh.h" //刷新调用
+#import "OperationIuiueViewController.h" //操作记录页面
+#import "AboutViewController.h" //关于日租帮页面
+#import "FeedbackViewController.h" //建议反馈的页面
+#import "iuiueCHKeychain.h" //秘钥的第三方库
+#import "MJRefresh.h" //下拉刷新
+#import "IuiuesourceViewController.h" //订单来源
+#import "UIViewController+ADFlipTransition.h" //翻转视图的加载
+#import "Memo_detailViewController.h" //显示备忘录详情  和修改备忘录
+
+//#ifdef DEBUG
+//#    define DLog(...) NSLog(__VA_ARGS__)
+//#else
+//#    define DLog(...)
+//#endif
+
+
 #endif

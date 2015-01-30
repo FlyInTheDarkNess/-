@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE66DC4719B6C39C00E28D9F"
-               BuildableName = "&#x65e5;&#x79df;&#x5e2e;.app"
+               BuildableName = "com.rizubang.app"
                BlueprintName = "&#x65e5;&#x79df;&#x5e2e;"
                ReferencedContainer = "container:&#x65e5;&#x79df;&#x5e2e;.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE66DC4719B6C39C00E28D9F"
-            BuildableName = "&#x65e5;&#x79df;&#x5e2e;.app"
+            BuildableName = "com.rizubang.app"
             BlueprintName = "&#x65e5;&#x79df;&#x5e2e;"
             ReferencedContainer = "container:&#x65e5;&#x79df;&#x5e2e;.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE66DC4719B6C39C00E28D9F"
-            BuildableName = "&#x65e5;&#x79df;&#x5e2e;.app"
+            BuildableName = "com.rizubang.app"
             BlueprintName = "&#x65e5;&#x79df;&#x5e2e;"
             ReferencedContainer = "container:&#x65e5;&#x79df;&#x5e2e;.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE66DC4719B6C39C00E28D9F"
-            BuildableName = "&#x65e5;&#x79df;&#x5e2e;.app"
+            BuildableName = "com.rizubang.app"
             BlueprintName = "&#x65e5;&#x79df;&#x5e2e;"
             ReferencedContainer = "container:&#x65e5;&#x79df;&#x5e2e;.xcodeproj">
          </BuildableReference>
